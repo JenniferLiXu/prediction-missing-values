@@ -12,4 +12,5 @@ binary classification
 
 # suppose df is a pandas dataframe containing the result
 import pandas as pd
+
 df.to_csv('prediction.zip', index=False, float_format='%.3f', compression='zip')
